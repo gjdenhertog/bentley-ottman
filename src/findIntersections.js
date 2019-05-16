@@ -8,9 +8,9 @@ var Tree = require('avl'),
 */
 function findIntersections(segments) {
     var sweepline = new Sweepline('before'),
-        queue = new Tree(utils.comparePoints, true),
-        status = new Tree(utils.compareSegments.bind(sweepline), true),
-        output = new Tree(utils.comparePoints, true);
+        queue = new Tree.default(utils.comparePoints, true),
+        status = new Tree.default(utils.compareSegments.bind(sweepline), true),
+        output = new Tree.default(utils.comparePoints, true);
 
     segments.forEach(function (segment) {
         segment.sort(utils.comparePoints);
