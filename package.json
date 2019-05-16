@@ -1,6 +1,6 @@
 {
   "name": "bentley-ottman-sweepline",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Bentley-Ottman segments intersection algorithm",
   "repository": "https://github.com/ggolikov/bentley-ottman",
   "main": "index.js",
@@ -33,6 +33,6 @@
     "watchify": "^3.7.0"
   },
   "dependencies": {
-    "avl": "^1.4.0"
+    "avl": "^1.4.4"
   }
 }
